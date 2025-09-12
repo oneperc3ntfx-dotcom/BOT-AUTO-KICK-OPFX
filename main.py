@@ -82,8 +82,8 @@ async def new_member(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
             keyboard = InlineKeyboardMarkup([
                 [
-                    InlineKeyboardButton("7 Hari", callback_data=f"kick:{member.id}:{7*24}"),
-                    InlineKeyboardButton("21 Hari", callback_data=f"kick:{member.id}:{21*24}"),
+                    InlineKeyboardButton("1 Hari", callback_data=f"kick:{member.id}:{1*24}"),
+                    InlineKeyboardButton("30 Hari", callback_data=f"kick:{member.id}:{30*24}"),
                     InlineKeyboardButton("Unlimited", callback_data=f"kick:{member.id}:0"),
                 ]
             ])
